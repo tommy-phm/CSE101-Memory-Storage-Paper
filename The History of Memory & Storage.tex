@@ -1,18 +1,11 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % IEEEconf.cls file must exist in the same directory as the TeX file you want to compile
 \documentclass[letterpaper, 10 pt, conference]{IEEEconf}
 
-\title{\LARGE \bf
-COMPUTER HISTORY\\
-\large Group Topic Expressed In A Few Words
-}
-
-\author{Group Number\\
-\small Group Member 1\\
-\small Group Member 2\\
-\small Group Member 3\\
-}
+\title{CSE101 Memory Storage Project}
+\author{Owen King \\
+Tommy Pham}
+\date{October 2020}
 
 % Image/graphics support
 \usepackage{graphicx}
@@ -28,83 +21,71 @@ COMPUTER HISTORY\\
 
 \begin{document}
 
-
 \maketitle
 \thispagestyle{empty}
 \pagestyle{empty}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{ABSTRACT}
-\textit{
-This document is a basic template for writing conference-style
-reports in LaTeX. You will use this template when writing
-your report; you will need to replace all text (excluding
-section headers or preamble information) with the content
-of your report.
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
-This document is an example of Assignment 3 in CSE/IT101.
-You should describe what topic you chose and
-why you chose that topic. Also provide a summary of the
-topic, in a general sense. This section should describe any
-background information that the reader needs to know to
-understand your topic.
+The topic that we have chosen to write this paper about is Computer Memory and Storage. Computer Memory and Storage gives the ability for the computer to preserve information. We thought memory and computer storage was an interesting topic because of how much and how fast it can store information. A whole library could be stored on a small chip and it could transfer millions of ones and zeros in a second. It is amazing to see how far memory has evolved. The rate at which the technology has advanced at has also been astounding. To think that we went from punch boards to chips that can store millions of bytes in under a century is astounding.There are two broad categories of technologies designed to preserve information - memory and storage. Memory deals with what the computer is trying to do at that specific moment while storage preserves data and programs for future use. When a computer has more memory, it can perform multiple tasks simultaneously, just as when a computer has more storage, it can hold more data to be used in the future. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{TIME PERIOD}
 
-You should describe the time period in which your topic was
-invented or used here. Also include the context for why your
-topic was created or for how it is used. Any specific historical
-information should be included here.
+This really began in 1932 with Austrian Gustav Tauschek and his patent for an early form of magnetic drum memory. Later in 1950 the United States also began investing more heavily in computing with the the creation of Atlas, which used a magnetic drum memory. There have been many changes in the field since then, and even today there are multiple advancements.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{COMPUTER HARDWARE}
 
-You should list the specification of any hardware your topic
-uses here. If you want make a table here, please label the table
-and include discussion on what components are included in the
-table and why. See Table
-\ref{tbl:example} for an example of a table.
-The labels/captions of the table should be put at the bottom
-of the table.
+We have had information preservation for centuries, from tally sticks to the Incan Quipu. Some of the early day computer memory technologies included Delay Lines and Magnetic Drums, which were considered serial, meaning that to read or write data, the computer waited for information that circulated in a loop to arrive at a place where it could be read or written. When they released Random Access Memory (RAM) it sped things up a lot, enabling computers to operate much quicker. \\
 
+Another example of early computing technology included the Williams-Kiburn Tubes which were tested in 1947. These were the first entirely electric memory used cathode ray tube used to store bits as dots on the screen's surface. However they were deemed unreliable and the technology hit a dead end. \\
 
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{||c | c | c | c||} 
-\hline
-  & Col1 & Col2 & Col3 \\ [0.5ex]
-\hline\hline
-Row1 & (1,1) & (1,2) & (1,3) \\ 
-\hline
-Row2 & (2,1) & (2,2) & (2,3) \\
-\hline
-Row3 & (3,1) & (3,2) & (3,3) \\
-\hline
-\end{tabular}
-\caption{Example of a table}
-\label{tbl:example}
-\end{center}
-\end{table}
+Delay lines came about after World War II due to the advancements made in radar technology. Delay lines were originally meant to store radar blips so that only new blips were shown on the display. For computers delay lines converted data bits into sounds waves, which were than transmitted acoustically and once more converted from sound waves back into data bits. \\
 
-You might want to put figures in the document. Please
-remember to label them. The labels/captions of the figures
-should be put at the bottom of the figure. See Figure
-\ref{fig:example} for an example of how to use figures.
-You will need to place the figure in an \texttt{images/} folder
-in your working directory.
+Main Memory was the first technology that combined many aspects of memory and data storage. In this technology we saw aspects of random access devices as well as the fast, electronic memory. Two memory breakthroughs transformed computers (from laboratory equipment to general household computers). These two breakthroughs were Magnetic Core memory, which was king after 1953, and semiconductor memory, which was king after 1980 and is still used to this day.\\
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.5\textwidth]{spiral.png}
-\caption{Example of a figure}
-\label{fig:example}
-\end{figure} 
+Magnetic Core memory consisted of tiny tori that were made of a magnetic material that was strung on wires into an array. This concept revolutionized computing and changed the course of history. Each torus was a bit, and they were magnetized one way for zero and the other way for one. The wires that they were strung up upon could recognize when the magnetization (and thus one to zero or vice versa) changed. MIT's Whirlwind computer became the first to use this technology.\\
+
+In 1963 Robert Norman had patented a semiconductor static RAM design at Fairchild. This was later used in 1970 with the creation of the ILLIAC IV computer, which was designed for the Department of Defense, which was created by Daniel Slotnick. This computer featured 64 parallel processing elements, each required 131,072 bits of memory, which proved difficult at the time, but luckily with Norman's semiconductor static RAM, it was completed.\\
+
+The goal now was to make the computer's memory fit into a smaller module. The key to accomplishing this was to minimize the number of transistors needed to access the storage capacitor. Earlier RAM modules, like Fairchild's in 1968, used 4 to 6 transistors and eventually Bill Regitz proposed a 3 transistor design but big change came in 1976 when Mostek used IBM's 1967 patent for a 1 transistor cell to create 16k-bit DRAM.\\
+
+\begin{enumerate}
+    \item Shift Register - store bits of either kind in a serially connected string. Data is read out in a list, so accessing one specific bit may take some time depending on where it is in the string
+    \item SRAMs - uses "flip flops" organized to access any bit directly, generally they use more transistors per bit, but are much faster than Shift Registers. They are also more expensive.
+    \item DRAMs - use capacitors, only need 1 transistor per bit, and have simpler access circuits. DRAMs are more dense than SRAMs, but slower
+    \item NVM Chips - retain data when the power is switched off. Forms of memory based on charge storage, like Flash, can be changed but only a limited number of times.
+\end{enumerate}
+
+MOS DRAMs Replace Magnetic Core Arrays
+In the early 1970s, the concept of dynamic circuit design, when combined with the silicon gate MOS (metal-oxide-silicon) process made DRAM chips monetarily competitive with the previously cheaper alternative of magnetic cores. With the current advancements in technology we have seen around a 3x increase in the density of these chips in terms of the number of bits that they can store. \\
+
+While working for Toshiba in 1984, Fujio Masuoka invented the concept of Flash Memory, which had the ability to erase data in a split second, is now a key component in many modern technologies, such as digital cameras and phones. \\
+
+Most of the time while a computer is running, most of the information it holds is not being used, it is being stored. The space that is used for this storage is often slower, while they focus on size, reliability, cost, and data integrity. \\
+
+Magnetic Tapes began as a device used for recording audio in the 1930s. Magnetic tapes were vital for many years, and sometimes are still being used. They are a very cheap and portable.\\
+
+The First Disk Drive, the RAMAC 350. \\ The RAMAC 350 had 50 24' disks spinning at 1,200 RPM that can hold 5,000,000 characters, or about 3.75mb, of information. Nowadays this may seem insignificant, but in its time this was revolutionary. This could hold the same amount of information is 62,500 punched cards, which would have been a lot of cards. This was created because people and companies began to rely upon computers, and needed to be able to use them more easily. The punch card system that was mainstream earlier in the decade was becoming a nuisance, with some groups needing to go through thousands a day.\\
+
+How did RAMAC work?\\
+Storing data on magnetic tapes and drums was already a well established method of storing data by 1957. IBM's RAMAC team adapted the technology of magnetic storage into a spinning disk, or in the case of RAMAC 350, 50 spinning disks.\\
+
+Magnetic Hard Disks\\
+The 120MB RA80 was the one of the first large capacity fixed disk drives. These devices made mass storage for different systems much more readily available.\\
+
+Disk Storage Systems\\
+A single disk drive will often suffice for smaller, personal computers, but when it comes to large workstations and networks, they require much more storage space. One of the leading ideas in order to work on this issue was the FrankenRAID Prototype, which connected multiple disks that are grouped in a way that they act as one disk. Early RAID systems married the data, meaning that even if one drive failed, the data was recoverable.\\
+
+Floppy Disks\\
+Magnetic hard disks had initially transformed data storage, but were very large and expensive. While this was fine for larger computers such as mainframes and networks, when it came to personal computers they became bothersome. The alternative that they found for personal computers were floppy disks. In the 1970s and 80s they became the primary storage device for word processors and personal computers, and were the standard way to distribute information and software.\\
+
+Optical Storage\\
+The traditional CD disk of the early days of computer memory and storage only had to capability to be read, which caused an issue for some organizations. DEC worked with Philips and Sony to adapt these CDs in order so that they could be both written and read upon, making them more usable.\\
+
+Databases\\
+The more information and data that a computer holds, the longer it takes to find specific information. Well, usually that's the case. Databases create collections of data that can be structured in many ways, such as relationships and hierarchies, making specific pieces of information much easier to find.
 
 \section{COMPUTER SOFTWARE}
 
@@ -137,4 +118,3 @@ E-Mail.
 \end{enumerate}
 
 \end{document}
-
