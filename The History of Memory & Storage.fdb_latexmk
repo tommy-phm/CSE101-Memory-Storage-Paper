@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1602657676 "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.tex" "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.pdf" "The History of Memory & Storage" 1602657676
+["pdflatex"] 1602898228 "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.tex" "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.pdf" "The History of Memory & Storage" 1602898228
   "/etc/texmf/web2c/texmf.cnf" 1600409214 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.aux" 1602657676 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.tex" 1602657674 11433 ec50d153b0aed9e493cd59f8311403d6 ""
+  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.aux" 1602898228 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.tex" 1602898226 12086 286b930d669ae06450557cd71704c8a6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -51,10 +51,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1600409394 8256518 a783fd6044ae231c416031f011e35ea9 ""
   "IEEEconf.cls" 1505699736 6629 945ba53c2e24704dfe8914d354c01a5a ""
   "The History of Memory & Storage.aux" 0 -1 0 "pdflatex"
-  "The History of Memory & Storage.tex" 1602657674 11433 ec50d153b0aed9e493cd59f8311403d6 ""
+  "The History of Memory & Storage.tex" 1602898226 12086 286b930d669ae06450557cd71704c8a6 ""
   (generated)
+  "The History of Memory & Storage.aux"
+  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.log"
+  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.pdf"
   "The History of Memory & Storage.pdf"
   "The History of Memory & Storage.log"
-  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.pdf"
-  "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.log"
-  "The History of Memory & Storage.aux"

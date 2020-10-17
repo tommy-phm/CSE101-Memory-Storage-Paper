@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.18)  14 OCT 2020 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.18)  16 OCT 2020 19:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -375,22 +375,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--97
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.tex:98: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 \\S
-        econdary memory is used to store long-term data when speed is a seco...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.tex:105: Misplaced alignment tab character &.
+l.105 \item CHM Storage SIG, et al. “Memory &
+                                               amp; Storage.” Computer His...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 105--106
+[]\OT1/ptm/m/n/10 CHM Stor-age SIG, et al. \Mem-ory amp;
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 105--106
+\OT1/ptm/m/n/10 Stor-age." Com-puter His-tory Mu-seum, CHM ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+\OT1/ptm/m/n/10 www.computerhistory.org/revolution/memory-
+ []
 
 [3] (/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.aux) ) 
 Here is how much of TeX's memory you used:
@@ -402,7 +423,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,9n,29p,1146b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.pdf" (3 pages, 41108 bytes).
+Output written on "/home/tom/Desktop/CSE101/CSE101-Memory-Storage-Paper/The History of Memory & Storage.pdf" (3 pages, 41709 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream
